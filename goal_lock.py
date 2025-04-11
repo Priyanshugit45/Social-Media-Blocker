@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-class TaskLockApp:
+class GoalLockApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Goal Lock")
@@ -20,7 +20,7 @@ class TaskLockApp:
         # Start Button
         tk.Button(root, text="Start Goal", command=self.start_goal).pack(pady=10)
 
-        # Status Label
+        # Status Labe
         self.status_label = tk.Label(root, text="Set a Goal to begin!")
         self.status_label.pack(pady=5)
 
